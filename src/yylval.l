@@ -1,9 +1,10 @@
 /* erzeugt Samstag, 04. Juli 2015 14:12 (C) 2015 von Leander Jedamus*/
+/* modifiziert Donnerstag, 21. November 2019 17:31 von Leander Jedamus */
 /* modifiziert Samstag, 04. Juli 2015 14:15 von Leander Jedamus */
 
 %{
   void yyerror(char *);
-  #include "grammar.tab.h"
+  #include "grammar.h"
 %}
 
 %%
